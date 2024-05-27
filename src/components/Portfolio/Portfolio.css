@@ -1,0 +1,12 @@
+.card {
+  display: flex;
+}
+
+.card__img-container {
+  border-radius: 16px;
+}
+
+.card__img {
+  width: 145px;
+  height: 145px;
+}

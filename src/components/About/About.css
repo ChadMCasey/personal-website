@@ -1,0 +1,15 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.about__avatar {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.about__heading {
+  margin: 0px;
+}

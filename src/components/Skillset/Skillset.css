@@ -1,0 +1,19 @@
+.skillset__heading {
+  margin-bottom: 32px;
+}
+
+.skillset__list {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 16px;
+}
+
+.skillset__icon {
+  width: 40px;
+  height: 40px;
+  transition: all 0.25s ease-out;
+}
+
+.skillset__icon:hover {
+  transform: scale(1.1);
+}
