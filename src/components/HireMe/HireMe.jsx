@@ -13,7 +13,11 @@ const HireMe = () => {
             submit your email here!
           </p>
           <div className="hireme__input-container">
-            <input type="email" className="hireme__input" />
+            <input
+              type="email"
+              className="hireme__input"
+              placeholder="email address"
+            />
             <button className="h2 hireme__submit">Submit</button>
           </div>
         </div>

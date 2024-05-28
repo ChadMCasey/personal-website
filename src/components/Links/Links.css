@@ -1,0 +1,11 @@
+.links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  padding: 24px;
+}
+
+.links__list {
+  display: flex;
+  column-gap: 18px;
+}

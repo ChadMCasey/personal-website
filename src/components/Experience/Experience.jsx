@@ -4,7 +4,7 @@ import { experienceCards } from "../../utils/constants";
 
 const Experience = () => {
   return (
-    <section className="experience">
+    <section className="experience" id="experience">
       <h2 className="h2 experience__heading">Experience</h2>
       {experienceCards.map((card) => {
         return (

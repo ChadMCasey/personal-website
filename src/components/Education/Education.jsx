@@ -4,11 +4,11 @@ import { educationCards } from "../../utils/constants";
 
 const Education = () => {
   return (
-    <section className="education">
+    <section className="education" id="education">
       <h2 className="h2 education__heading">Education</h2>
       {educationCards.map((card) => {
         return (
-          <div className="education-card">
+          <div className="education-card" key={card.id}>
             <p className="subheading education-card__date">{card.date}</p>
             <h2 className="h2 education-card__heading">{card.heading}</h2>
             <p className="p education-card__description">{card.description}</p>

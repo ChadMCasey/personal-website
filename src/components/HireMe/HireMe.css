@@ -26,6 +26,17 @@
   background-color: var(--input);
   border: none;
   outline: none;
+
+  color: var(--input-text);
+  font-family: "Inter", Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 13px 16px;
+}
+
+.hireme__input::placeholder {
+  color: var(--input-text);
 }
 
 .hireme__submit {

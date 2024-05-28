@@ -13,6 +13,9 @@
   --card-background: #323232;
 
   --input: #4f4f4f;
+  --input-text: rgba(255, 255, 255, 0.5);
+
+  --box-shadow-light: #0000001f 0px 0px 10px;
 }
 
 .h1 {
@@ -76,12 +79,16 @@
   color: var(--section-link);
 }
 
-.body {
-  background-color: var(--background-dark);
-}
-
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+.html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: var(--background-dark);
 }

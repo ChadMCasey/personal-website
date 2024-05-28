@@ -5,7 +5,7 @@ import { portfolioCards } from "../../utils/constants";
 
 const Portfolio = () => {
   return (
-    <section className="portfolio">
+    <section className="portfolio" id="portfolio">
       <h2 className="h2 portfolio__heading">Portfolio</h2>
       {portfolioCards.map((card) => {
         return (

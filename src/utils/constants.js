@@ -177,4 +177,33 @@ const educationCards = [
   },
 ];
 
-export { skillsetIcons, portfolioCards, experienceCards, educationCards };
+const footerLinks = [
+  {
+    id: 1,
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/chadcaseyswe/",
+  },
+  {
+    id: 2,
+    name: "Resume",
+    url: "https://docs.google.com/document/d/1wkzZOwhGyBNnN_YHL0Fy98u_6eHEuTHIt_VS-fxANsI",
+  },
+  {
+    id: 3,
+    name: "Youtube",
+    url: "https://www.youtube.com/channel/UCNv_sC_Pn4aE7nVHO_ID_Cg",
+  },
+  {
+    id: 4,
+    name: "Github",
+    url: "https://github.com/ChadMCasey",
+  },
+];
+
+export {
+  skillsetIcons,
+  portfolioCards,
+  experienceCards,
+  educationCards,
+  footerLinks,
+};

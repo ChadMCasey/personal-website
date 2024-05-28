@@ -57,14 +57,15 @@
 }
 
 .card:hover {
-  background-color: var(--background-soft);
+  background-color: var(--card-background);
+  box-shadow: var(--box-shadow-light);
   cursor: pointer;
   scale: 1.005;
 }
 
 .card:hover .card__img-container {
   transform: scale(1.03);
-  box-shadow: #0000001f 0px 0px 10px;
+  --box-shadow-light: var(--box-shadow-light);
 }
 
 .card:hover .card__img-container .card__img {

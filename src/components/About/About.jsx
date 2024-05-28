@@ -5,7 +5,7 @@ import diagonalArrow from "../../assets/arrow-diaganol.svg";
 
 const About = () => {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <img className="about__avatar" src={portrait} alt="portrait" />
       <h1 className="h1 about__heading">Full Stack Software Engineer</h1>
       <p className="p about__paragraph">
@@ -13,16 +13,6 @@ const About = () => {
         in Michigan but have since moved to Arizona. I enjoy frontend and
         backend development as well as UI design.
       </p>
-      <div className="section-link-container">
-        <a
-          className="link-s section-link"
-          href="https://github.com/ChadMCasey"
-          target="_blank"
-        >
-          Github
-        </a>
-        <img className="section-link-arrow" src={diagonalArrow} alt="arrow" />
-      </div>
     </section>
   );
 };
