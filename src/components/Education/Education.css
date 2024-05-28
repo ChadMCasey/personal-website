@@ -1,0 +1,15 @@
+.education {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+.education__heading {
+  padding: 0px 24px;
+}
+
+.education-card {
+  padding: 0px 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}

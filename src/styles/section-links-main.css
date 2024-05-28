@@ -1,0 +1,19 @@
+.section-link-main-container {
+  margin: 0px 24px;
+}
+
+.section-link-main {
+  text-decoration: none;
+  color: var(--link-active);
+}
+.section-link-main__arrow {
+  display: inline-block;
+  margin-left: 4px;
+  transition: all 0.25s ease-out;
+}
+
+.section-link-main-container:hover
+  .section-link-main
+  .section-link-main__arrow {
+  transform: translateX(3px);
+}

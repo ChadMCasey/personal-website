@@ -5,6 +5,7 @@ import "./index.css";
 import "./vendor/normalize.css";
 import "./vendor/fonts.css";
 import "./styles/section-links.css";
+import "./styles/section-links-main.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

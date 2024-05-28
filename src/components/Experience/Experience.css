@@ -1,0 +1,32 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.experience__heading {
+  padding: 0px 24px;
+}
+
+.experience-card {
+  padding: 0px 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.experience-card__bullets {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.subheading.experience-card__bullet {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: var(--heading);
+}
+
+.experience-card__bullet::marker {
+  color: white;
+}

@@ -13,7 +13,7 @@ const About = () => {
         in Michigan but have since moved to Arizona. I enjoy frontend and
         backend development as well as UI design.
       </p>
-      <div className="about__link-section">
+      <div className="section-link-container">
         <a
           className="link-s section-link"
           href="https://github.com/ChadMCasey"
