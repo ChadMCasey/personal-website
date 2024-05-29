@@ -185,10 +185,19 @@ const footerLinks = [
   },
 ];
 
+const navigationLinks = [
+  "Skillset",
+  "Portfolio",
+  "Experience",
+  "Education",
+  "Hire me",
+];
+
 export {
   skillsetIcons,
   portfolioCards,
   experienceCards,
   educationCards,
   footerLinks,
+  navigationLinks,
 };

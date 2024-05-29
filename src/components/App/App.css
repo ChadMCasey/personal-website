@@ -3,3 +3,9 @@
   max-width: 1440px;
   margin: auto;
 }
+
+@media screen and (width <= 768px) {
+  .page {
+    padding: 60px;
+  }
+}

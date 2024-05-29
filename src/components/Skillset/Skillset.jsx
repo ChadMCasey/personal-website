@@ -4,7 +4,7 @@ import { skillsetIcons } from "../../utils/constants";
 
 const Skillset = ({ reference }) => {
   return (
-    <section className="skillset display" id="skillset" ref={reference}>
+    <section className="skillset display" id="Skillset" ref={reference}>
       <h2 className="h2 skillset__heading">Skillset</h2>
       <ul className="skillset__list">
         {skillsetIcons.map((obj) => (

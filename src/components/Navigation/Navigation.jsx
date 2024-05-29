@@ -1,28 +1,40 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Navigation.css";
+import { navigationLinks } from "../../utils/constants";
 
-const Navigation = () => {
+const Navigation = ({ reference }) => {
+  useEffect(() => {
+    setTimeout(() => reference.current.classList.add("animateIn"), 200);
+  }, []);
+
   return (
-    <nav className="nav">
-      <ul className="nav__links nav__desktop">
-        <a className="nav-link nav__link" href="#">
-          Chad Casey
-        </a>
-        <a className="nav-link nav__link" href="#about">
-          Overview
-        </a>
-        <a className="nav-link nav__link" href="#skillset">
-          Skillset
-        </a>
-        <a className="nav-link nav__link" href="#portfolio">
-          Portfolio
-        </a>
-        <a className="nav-link nav__link" href="#experience">
-          Experience
-        </a>
-        <a className="nav-link nav__link" href="#education">
-          Education
-        </a>
+    <nav className="nav display" ref={reference}>
+      <ul className="nav__list">
+        <li className="nav__li">
+          <a className="nav-link nav__link" href="#About">
+            Chad Casey
+          </a>
+        </li>
+        {navigationLinks.map((link, i) => {
+          return (
+            <li className="nav__li nav__li-desktop" key={i}>
+              <a className="nav-link nav__link" href={`#${link}`}>
+                {link}
+              </a>
+            </li>
+          );
+        })}
+        <div className="nav__list-mobile">
+          {navigationLinks.map((link, i) => {
+            return (
+              <li className="nav__li nav__li-mobile" key={i}>
+                <a className="nav-link nav__link" href={`#${link}`}>
+                  {link}
+                </a>
+              </li>
+            );
+          })}
+        </div>
       </ul>
     </nav>
   );

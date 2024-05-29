@@ -1,17 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./About.css";
 import portrait from "../../assets/portrait.png";
 import diagonalArrow from "../../assets/arrow-diaganol.svg";
 import downArrow from "../../assets/down-arrow.png";
 
 const About = ({ reference }) => {
+  useEffect(() => {
+    setTimeout(() => reference.current.classList.add("animateIn"), 800);
+  }, []);
+
   return (
-    <section className="about" id="about" ref={reference}>
+    <section className="about display" id="About" ref={reference}>
       <img className="about__avatar" src={portrait} alt="portrait" />
       <div className="about__heading-section">
         <h1 className="h1 about__heading">Full Stack Software Engineer</h1>
 
-        <a className="about__scroll-prompt" href="#skillset">
+        <a className="about__scroll-prompt" href="#Skillset">
           <img className="about__down-arrow" src={downArrow} alt="down arrow" />
         </a>
       </div>

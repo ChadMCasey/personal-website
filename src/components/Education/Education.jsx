@@ -3,7 +3,7 @@ import { educationCards } from "../../utils/constants";
 
 const Education = ({ reference }) => {
   return (
-    <section className="education display" id="education" ref={reference}>
+    <section className="education display" id="Education" ref={reference}>
       <h2 className="h2 education__heading">Education</h2>
       {educationCards.map((card) => {
         return (

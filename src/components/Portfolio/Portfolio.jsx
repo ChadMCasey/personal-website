@@ -5,7 +5,7 @@ import { portfolioCards } from "../../utils/constants";
 
 const Portfolio = ({ reference }) => {
   return (
-    <section className="portfolio display" id="portfolio" ref={reference}>
+    <section className="portfolio display" id="Portfolio" ref={reference}>
       <h2 className="h2 portfolio__heading">Portfolio</h2>
       {portfolioCards.map((card) => {
         return (

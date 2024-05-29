@@ -18,6 +18,7 @@ import "./App.css";
 import "../../styles/animations.css";
 
 function App() {
+  const navigationRef = useRef();
   const aboutRef = useRef(null);
   const skillsetRef = useRef(null);
   const portfolioRef = useRef(null);
@@ -59,7 +60,7 @@ function App() {
   return (
     <div className="page">
       <Header>
-        <Navigation />
+        <Navigation reference={navigationRef} />
       </Header>
       <Main>
         <About reference={aboutRef} />

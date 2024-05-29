@@ -5,13 +5,22 @@
   place-content: center;
 }
 
-.nav__links {
+.nav__list {
   display: flex;
   justify-content: space-between;
+  list-style-type: none;
 }
 
-.nav__links:hover .nav__link:not(:hover) {
+.nav__list:hover .nav__link:not(:hover) {
   color: var(--link-inactive);
+}
+
+.nav__list-mobile {
+  display: none;
+}
+
+.nav__li-mobile {
+  flex-basis: 44px;
 }
 
 .nav__link {
@@ -38,4 +47,14 @@
 .nav__link:hover::after {
   opacity: 1;
   width: 100%;
+}
+
+@media screen and (width <= 768px) {
+  .nav__li-desktop {
+    display: none;
+  }
+  .nav__list-mobile {
+    display: flex;
+    flex-direction: column;
+  }
 }
