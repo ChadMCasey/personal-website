@@ -3,9 +3,9 @@ import "./Portfolio.css";
 import diagonalArrow from "../../assets/arrow-diaganol.svg";
 import { portfolioCards } from "../../utils/constants";
 
-const Portfolio = () => {
+const Portfolio = ({ reference }) => {
   return (
-    <section className="portfolio" id="portfolio">
+    <section className="portfolio display" id="portfolio" ref={reference}>
       <h2 className="h2 portfolio__heading">Portfolio</h2>
       {portfolioCards.map((card) => {
         return (

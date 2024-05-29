@@ -2,9 +2,9 @@ import React from "react";
 import "./HireMe.css";
 import email from "../../assets/email.png";
 
-const HireMe = () => {
+const HireMe = ({ reference }) => {
   return (
-    <section className="hireme">
+    <section className="hireme display" ref={reference}>
       <div className="hireme__card">
         <div className="hireme__card-left">
           <h2 className="h2 hireme__heading">Interested in hiring me?</h2>

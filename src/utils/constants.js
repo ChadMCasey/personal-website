@@ -117,11 +117,6 @@ const experienceCards = [
     description: `As a Performance Marketing Data Analyst, my objective is to
                   produce data driven insights regarding DriveTimes email marketing
                   and web sessions.`,
-    bullets: [
-      "Developed automated reporting pipelines via Python, SQLalchemy and Excel.",
-      "Modeled email data as a directed graph to examine user drop off points.",
-      "Utilized statistical testing methods to validate experimentation results.",
-    ],
   },
   {
     id: 2,
@@ -130,11 +125,6 @@ const experienceCards = [
     description: `As an intern at Gestamp North America, i had the opportunity to work
                   as a Materials Planning & Logistics Data Analyst. My focus was on exploring
                   logistics inefficiencies & managing communication between regional facilities.`,
-    bullets: [
-      "Facilitated communication between 4 regional company locations and our HQ in Troy, MI.",
-      "Utilized Excel to drive data informed decisions regarding Materials Planning & Logistics.",
-      "Explored the application of Graph Theory, Networks, and RFID in warehousing.",
-    ],
   },
   {
     id: 3,
@@ -143,11 +133,6 @@ const experienceCards = [
     subheading: "Python - SQL - Snowflake - Tableau - Excel",
     description: `As an intern at Jaeger Unitek Sealing Solutions, i had the opportunity to
                   partake in their rotational leadership development program. `,
-    bullets: [
-      "Rotated through sales, marketing, engineering, R&D and operations.",
-      "Explored cost savings initiatives through recycling of scrap material.",
-      "Had the opportunity to learn about the rubber and plastics extrusion industry.",
-    ],
   },
 ];
 

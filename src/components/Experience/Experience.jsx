@@ -2,9 +2,9 @@ import React from "react";
 import "./Experience.css";
 import { experienceCards } from "../../utils/constants";
 
-const Experience = () => {
+const Experience = ({ reference }) => {
   return (
-    <section className="experience" id="experience">
+    <section className="experience display" id="experience" ref={reference}>
       <h2 className="h2 experience__heading">Experience</h2>
       {experienceCards.map((card) => {
         return (
@@ -12,13 +12,6 @@ const Experience = () => {
             <p className="subheading experience-card__date">{card.date}</p>
             <h2 className="h2 experience-card__heading">{card.heading}</h2>
             <p className="p experience-card__description">{card.description}</p>
-            <ul className="experience-card__bullets">
-              {card.bullets.map((bullet, i) => (
-                <li className="subheading experience-card__bullet" key={i}>
-                  {bullet}
-                </li>
-              ))}
-            </ul>
           </div>
         );
       })}

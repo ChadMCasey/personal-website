@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 32px;
+  scroll-margin-top: 150px;
 }
 .education__heading {
   padding: 0px 24px;

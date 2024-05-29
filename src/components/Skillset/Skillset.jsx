@@ -2,9 +2,9 @@ import React from "react";
 import "./Skillset.css";
 import { skillsetIcons } from "../../utils/constants";
 
-const Skillset = () => {
+const Skillset = ({ reference }) => {
   return (
-    <section className="skillset" id="skillset">
+    <section className="skillset display" id="skillset" ref={reference}>
       <h2 className="h2 skillset__heading">Skillset</h2>
       <ul className="skillset__list">
         {skillsetIcons.map((obj) => (

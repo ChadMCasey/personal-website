@@ -1,10 +1,9 @@
-import React from "react";
 import "./Education.css";
 import { educationCards } from "../../utils/constants";
 
-const Education = () => {
+const Education = ({ reference }) => {
   return (
-    <section className="education" id="education">
+    <section className="education display" id="education" ref={reference}>
       <h2 className="h2 education__heading">Education</h2>
       {educationCards.map((card) => {
         return (

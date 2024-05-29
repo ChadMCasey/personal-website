@@ -8,7 +8,7 @@ const Navigation = () => {
         <a className="nav-link nav__link" href="#">
           Chad Casey
         </a>
-        <a className="nav-link nav__link" href="#overview">
+        <a className="nav-link nav__link" href="#about">
           Overview
         </a>
         <a className="nav-link nav__link" href="#skillset">

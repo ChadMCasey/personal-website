@@ -2,6 +2,7 @@
   text-decoration: none;
   position: relative;
   display: inline-block;
+  cursor: pointer;
 }
 
 .section-link::after {
