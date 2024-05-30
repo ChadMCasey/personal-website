@@ -9,3 +9,13 @@
   display: flex;
   column-gap: 18px;
 }
+
+@media screen and (width <= 480px) {
+  .links {
+    row-gap: 24px;
+  }
+  .links__list {
+    flex-direction: column;
+    row-gap: 16px;
+  }
+}

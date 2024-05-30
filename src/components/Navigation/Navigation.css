@@ -50,6 +50,9 @@
 }
 
 @media screen and (width <= 768px) {
+  .nav__list {
+    padding: 0px 24px;
+  }
   .nav__li-desktop {
     display: none;
   }

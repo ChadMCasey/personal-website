@@ -9,3 +9,14 @@
     padding: 60px;
   }
 }
+
+@media screen and (width <= 576px) {
+  .page {
+    padding: 36px 16px;
+  }
+}
+@media screen and (width <= 480px) {
+  .page {
+    padding: 36px 12px;
+  }
+}

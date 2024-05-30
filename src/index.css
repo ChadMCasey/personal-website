@@ -92,3 +92,9 @@
 .body {
   background-color: var(--background-dark);
 }
+
+@media screen and (width <= 576px) {
+  .p {
+    font-size: 15px;
+  }
+}

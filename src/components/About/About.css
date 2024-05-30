@@ -24,6 +24,7 @@
 
 .about__scroll-prompt {
   display: flex;
+  flex-shrink: 0;
   justify-content: center;
   align-items: center;
   width: 25px;
@@ -56,4 +57,10 @@
   100% {
     transform: translateY(0px);
   }
+}
+
+@media screen and (width <= 768px) {
+  /* .about {
+    padding: 0px;
+  } */
 }

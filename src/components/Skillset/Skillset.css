@@ -1,6 +1,7 @@
 .skillset {
   padding: 0px 24px;
   scroll-margin-top: 150px;
+  transition: padding 0.25s ease-out;
 }
 
 .skillset__heading {
@@ -21,4 +22,10 @@
 
 .skillset__icon:hover {
   transform: scale(1.1);
+}
+
+@media screen and (width <= 768px) {
+  .skillset__list {
+    gap: 8px;
+  }
 }
