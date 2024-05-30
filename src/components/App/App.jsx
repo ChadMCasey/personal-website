@@ -1,4 +1,5 @@
 import { useLayoutEffect, useState, useRef, useEffect } from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 // components
 import Header from "../Header/Header";
@@ -59,20 +60,30 @@ function App() {
 
   return (
     <div className="page">
-      <Header>
-        <Navigation reference={navigationRef} />
-      </Header>
-      <Main>
-        <About reference={aboutRef} />
-        <Skillset reference={skillsetRef} />
-        <Portfolio reference={portfolioRef} />
-        <Experience reference={experienceRef} />
-        <Education reference={educationRef} />
-        <HireMe reference={hireMeRef} />
-      </Main>
-      <Footer reference={footerRef}>
-        <Links />
-      </Footer>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Header>
+                <Navigation reference={navigationRef} />
+              </Header>
+              <Main>
+                <About reference={aboutRef} />
+                <Skillset reference={skillsetRef} />
+                <Portfolio reference={portfolioRef} />
+                <Experience reference={experienceRef} />
+                <Education reference={educationRef} />
+                <HireMe reference={hireMeRef} />
+              </Main>
+              <Footer reference={footerRef}>
+                <Links />
+              </Footer>
+            </>
+          }
+        />
+        <Route path="*" element={<Navigate to="/"></Navigate>}></Route>
+      </Routes>
     </div>
   );
 }

@@ -25,13 +25,14 @@ const About = ({ reference }) => {
         backend development as well as UI design.
       </p>
       <div className="about__link-section">
-        <div
+        <a
           className="section-link-container"
           href="https://github.com/ChadMCasey"
+          target="_blank"
         >
           <p className="link-s section-link">Github</p>
           <img className="section-link-arrow" src={diagonalArrow} alt="arrow" />
-        </div>
+        </a>
       </div>
     </section>
   );
