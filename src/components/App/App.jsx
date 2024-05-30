@@ -33,7 +33,7 @@ function App() {
     portfolioRef,
     experienceRef,
     educationRef,
-    hireMeRef,
+    // hireMeRef,
     footerRef,
     skillsetRef,
   ]);
@@ -74,7 +74,7 @@ function App() {
                 <Portfolio reference={portfolioRef} />
                 <Experience reference={experienceRef} />
                 <Education reference={educationRef} />
-                <HireMe reference={hireMeRef} />
+                {/* <HireMe reference={hireMeRef} /> */}
               </Main>
               <Footer reference={footerRef}>
                 <Links />

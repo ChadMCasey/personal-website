@@ -5,7 +5,7 @@ import { footerLinks } from "../../utils/constants";
 
 const Links = () => {
   return (
-    <div className="links">
+    <div className="links" id="Links">
       <p className="p links__heading">Links</p>
       <ul className="links__list">
         {footerLinks.map((link) => {

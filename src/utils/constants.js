@@ -190,7 +190,8 @@ const navigationLinks = [
   "Portfolio",
   "Experience",
   "Education",
-  "Hire me",
+  "Links",
+  // "Hire me",
 ];
 
 export {
