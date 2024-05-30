@@ -57,6 +57,13 @@
   background-color: var(--input);
   border: none;
   height: 50px;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.hireme__submit:hover {
+  background-color: #fff;
+  color: var(--background-dark);
 }
 
 .hireme__img {

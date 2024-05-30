@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./HireMe.css";
 import email from "../../assets/email.png";
 
 const HireMe = ({ reference }) => {
+  const inputRef = useRef(null);
+
+  const handleSubmit = () => {
+    console.log(inputRef.current);
+    inputRef.current.value = "";
+  };
+
   return (
     <section className="hireme display" ref={reference} id="Hire me">
       <div className="hireme__card">
@@ -17,8 +24,11 @@ const HireMe = ({ reference }) => {
               type="email"
               className="hireme__input"
               placeholder="email address"
+              ref={inputRef}
             />
-            <button className="h2 hireme__submit">Submit</button>
+            <button className="h2 hireme__submit" onClick={handleSubmit}>
+              Submit
+            </button>
           </div>
         </div>
         <div className="hireme__card-right">
