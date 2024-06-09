@@ -7,7 +7,8 @@ This repository houses my personal website.
 - JS
 - HTML
 - CSS
-- EmailJS (Soon, when i introduce a contact form)
+- EmailJS (when i introduce a contact form)
+- Netlify
 
 Check it out:
 [Chad Casey](https://chadmcasey.com)
